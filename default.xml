@@ -7,7 +7,8 @@
     <default revision="master" remote="origin" sync-j="4" />
 	<project path="EvanTest" name="EvanTest" revision="refs/heads/master">
         <copyfile src="settings.gradle" dest="settings.gradle"/>
-    </project>
+		<copyfile src="gradle.properties" dest="gradle.properties"/>
+	</project>
 	<project path="EvanFormValidator" name="EvanFormValidator" revision="refs/heads/master"/>
 	<project path="BuildScript" name="BuildScript" revision="refs/heads/master">
         <copyfile src="build.gradle" dest="build.gradle"/>
