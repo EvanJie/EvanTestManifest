@@ -5,6 +5,16 @@
     <remote name="origin" fetch=".." />
 
     <default revision="master" remote="origin" sync-j="4" />
-
-
+	<project path="EvanTest" name="EvanTest" revision="refs/heads/master">
+        <copyfile src="settings.gradle" dest="settings.gradle"/>
+    </project>
+	<project path="EvanFormValidator" name="EvanFormValidator" revision="refs/heads/master"/>
+	<project path="BuildScript" name="BuildScript" revision="refs/heads/master">
+        <copyfile src="build.gradle" dest="build.gradle"/>
+        <copyfile src="gradlew" dest="gradlew"/>
+        <copyfile src="gradlew.bat" dest="gradlew.bat"/>
+        <copyfile src="gradle/wrapper/gradle-wrapper.jar" dest="gradle/wrapper/gradle-wrapper.jar"/>
+        <copyfile src="gradle/wrapper/gradle-wrapper.properties"
+                  dest="gradle/wrapper/gradle-wrapper.properties"/>
+    </project>
 </manifest>
