@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 - 2018 贵阳货车帮科技有限公司 -->
+
+<manifest>
+    <remote name="origin" fetch=".." />
+
+    <default revision="master" remote="origin" sync-j="4" />
+
+
+</manifest>
